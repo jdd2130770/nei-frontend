@@ -10,7 +10,8 @@
     "setup": "node tools/setup.js",
     "start": "node -r babel-register node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "compile": "node -r babel-register node_modules/.bin/webpack",
-    "compile:prod": "NODE_ENV=production npm run compile"
+    "compile:prod": "NODE_ENV=production npm run compile",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies."
   },
   "dependencies": {
     "assign-deep": "0.4.6",
