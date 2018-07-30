@@ -8,7 +8,7 @@
   "scripts": {
     "preinstall": "node tools/nodeVersionCheck.js",
     "setup": "node tools/setup.js",
-    "start": "node -r babel-register node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node -r babel-register node_modules/.bin/webpack-dev-server",
     "compile": "node -r babel-register node_modules/.bin/webpack",
     "compile:prod": "NODE_ENV=production npm run compile"
   },
