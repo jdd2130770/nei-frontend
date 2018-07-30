@@ -1,0 +1,47 @@
+#large-header {
+  .hero-slider {
+    height: 65vh;
+    min-height: 479px;
+    background-image: url(./assets/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+  }
+
+  .inset-container {
+    min-height: 110px;
+    margin-bottom: 2rem;
+  }
+  
+  .large-header-inset {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    margin-top: -170px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+
+    .inset-content {
+      padding: 0 10%;
+      h2 {
+        line-height: 1.5;
+      }
+    }
+
+    .inset-footer {
+      text-transform: uppercase;
+      color: #CFCFCF;
+    }
+  }
+
+  .inset-logo {
+    height: 60px
+  }
+
+}

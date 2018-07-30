@@ -1,0 +1,35 @@
+#contact-page {
+  .contact-row {
+    padding: 5rem 1rem;
+  }
+
+  .form-title {
+    padding: 0 1rem;
+    margin-bottom: 0;
+  }
+
+  .contact-person {
+    margin-bottom: 2rem;
+
+    .fa {
+      width: 16px;
+      height: 16px;
+      margin-right: 1rem;
+    }
+  }
+  .contact-name {
+    color: #9A775C;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .about-text {
+    margin-bottom: 10px;
+  }
+  .about-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+}

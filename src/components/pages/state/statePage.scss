@@ -1,0 +1,23 @@
+@import "variables";
+
+#state-page {
+  #nav-row {
+    padding-top: 0;
+  }
+
+  .box-col-right {
+    margin-left: 1rem;
+  }
+
+  .link-box {
+    border: 1px solid #E6E6E6;
+    display: block;
+    margin-bottom: 3rem;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .link-icon {
+    margin-bottom: 2rem;
+  }
+}

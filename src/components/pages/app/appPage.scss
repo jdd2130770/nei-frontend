@@ -1,0 +1,97 @@
+@import "variables";
+
+#app-page {
+  .apple-store-img,
+  .google-play-store-img,
+  .nei-app-img,
+  .nei-features-img,
+  .app-spec-img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .download-row-wrapper {
+    position: relative;
+  }
+
+  .download-row {
+    background-color: #000;
+    color: #fff;
+
+    .main-title,
+    .download-title {
+      font-weight: 600;
+    }
+
+    .download-text {
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+
+    .nei-app-img-wrapper {
+      position: absolute;
+      bottom: 1px;
+      right: 0;
+      width: 50%;
+      max-width: 600px;
+      height: auto;
+    }
+  }
+
+  .info-row {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .nei-h {
+      font-weight: 600;
+    }
+    .app-info {
+      color: #8e8e8e;
+      font-weight: 600;
+    }
+  }
+
+  .specs-row {
+    background-color: $color-main;
+    padding-left: 1rem;
+    padding-right: 0;
+
+    .app-specs-left {
+      text-align: right;
+
+      .col-3 {
+        padding-left: 0;
+      }
+    }
+    .app-specs-right {
+      text-align: left;
+
+      .col-3 {
+        padding-right: 0;
+      }
+    }
+    .app-specs-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .app-spec-label {
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    .app-spec-description {
+      color: #f8baae;
+    }
+
+    .nei-features-img-wrapper {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .nei-features-img {
+      max-width: 80%;
+    }
+  }
+}

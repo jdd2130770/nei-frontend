@@ -1,0 +1,29 @@
+@import "variables";
+
+#states-page {
+  .states-title {
+    text-align: center;
+  }
+
+  .state-item {
+    &:active,
+    &:hover {
+      background-color: $color-main;
+      color: $color-white;
+
+      .state-link {
+        color: $color-white;
+      }
+    }
+  }
+
+  .state-items {
+    list-style: none;
+  }
+
+  .state-icon {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+  }
+}

@@ -1,0 +1,26 @@
+@import "variables";
+
+#state-locate-request-page {
+  #locate-request-row {
+    padding-top: 0;
+  }
+
+  .call-list,
+  .ticket-list {
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 0;
+  }
+
+  .call-item,
+  .ticket-item {
+    padding: .5rem 1rem;
+  }
+
+  .im-icon {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 36px;
+    vertical-align: middle;
+  }
+}

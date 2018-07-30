@@ -1,0 +1,34 @@
+@import "variables";
+
+#state-law-page {
+  #legal-row {
+    padding-top: 0;
+  }
+
+  .laws-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .law-item {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .law-title {
+    color: #000;
+  }
+
+  .law-item-link {
+    &:hover {
+      .law-title {
+        color: $color-main;
+      }
+    }
+
+    .fa {
+      display: inline-block;
+      margin-top: 5px;
+    }
+  }
+}

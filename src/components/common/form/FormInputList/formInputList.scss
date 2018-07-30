@@ -1,0 +1,21 @@
+.form-input-list {
+  .add-remove-col {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 5px;
+  }
+  .input-plus {
+    padding-right: 5px;
+
+    .btn {
+      padding: 0;
+      vertical-align: top;
+    }
+  }
+  .input-minus {
+    .btn {
+      padding: 0;
+      vertical-align: top;
+    }
+  }
+}

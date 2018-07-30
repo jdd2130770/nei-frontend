@@ -1,0 +1,93 @@
+@import "variables";
+
+#benefits-page {
+  #title-row {
+    text-align: center;
+  }
+
+  #goal-row {
+    text-align: left;
+
+    .our-goal-image {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      border: 0;
+    }
+
+    .disclaimer {
+      font-weight: bold;
+      margin-right: .5rem;
+    }
+  }
+
+  #drivers-row {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  #sponsorship-row {
+    background-image: url(./assets/nei-sponsorship.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    .sponsorship-title {
+      color: $color-with-image-background;
+    }
+  }
+
+  #benefits-row {
+    h2 {
+      text-align: center;
+    }
+
+    .benefit-item {
+      padding: 1rem 0;
+    }
+
+    .benefit-item-icon {
+      color: $color-main;
+    }
+  }
+
+  #help-row {
+    text-align: left;
+
+    .help-title-wrapper {
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h2 {
+      display: inline-block;
+      position: relative;
+
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        height: 2px;
+        width: 9999px;
+        display: block;
+        margin-top: -1px;
+        background-color: #e5e5e5;
+      }
+      &::after {
+        left: 100%;
+        margin-left: 0.5em;
+      }
+      &::before {
+        right: 100%;
+        margin-right: 0.5em;
+      }
+    }
+
+    .help-bold {
+      font-weight: bold;
+    }
+  }
+}

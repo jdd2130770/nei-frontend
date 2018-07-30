@@ -1,0 +1,85 @@
+@import "variables";
+
+#main-layout {
+  position: relative;
+  .footer {
+    background-color: $footer-bg-color;
+    color: $footer-color;
+
+    .footer-sitemap-row {
+      font-size: .85rem;
+      background-color: #1C1C1C;
+      min-height: 300px;
+      
+      .sitemap-links-list {
+        list-style-type: none;
+        padding: 0;
+
+        .sitemap-link {
+          color: $footer-color;
+          &:hover {
+            color: white;
+          }
+        }
+        .sitemap-links-title {
+          font-weight: bold;
+          color: white;
+        }
+      }
+
+      .left-side {
+        .logo-column {
+          
+          .footer-sitemap-logo {
+            height: 200px;
+            width: auto;
+          }
+        }
+      }
+      @media (max-width:1199px) {
+        .left-side,
+        .right-side {
+          padding: 0 calc((100vw / 12) + 30px);
+        }
+      }
+      @media (max-width:991px) {
+        .left-side,
+        .right-side {
+          padding: 0;
+        }
+      }
+      @media (max-width:767px) {
+        .nei-description {
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      }
+    }
+
+    .footer-row {
+      display: block;
+      font-size: .9rem;
+      height: 85px;
+      padding-top: 29px;
+    }
+  }
+
+  .inset-container {
+    text-align: center;
+
+    .header-inset {
+      position: relative;
+      min-height: 100px;
+      min-width: 20vw;
+      display: inline-block;
+      background-color: white;
+      padding: 23px;
+      margin-top: -50px;
+
+      .page-name {
+        margin-top: 7px;
+        font-size: 30px;
+      }
+    }
+  }
+}

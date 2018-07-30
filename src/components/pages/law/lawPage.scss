@@ -1,0 +1,66 @@
+@import "variables";
+
+$tag-bg-color: #e6e6e6;
+
+#law-page {
+  #primary-row {
+    padding-top: 0;
+  }
+
+  #primary-row .row .col {
+    padding: 0;
+  }
+
+  #back-row,
+  .statute,
+  .filters,
+  .law-content,
+  .regulatory {
+    padding: 1rem;
+  }
+
+  #back-row {
+    background-color: $color-main;
+
+    .back-link {
+      color: $color-white;
+    }
+  }
+
+  #title-row {
+    background-color: #000;
+    color: $color-white;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .law-title {
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    font-weight: 600;
+  }
+
+  .statute-value {
+    color: $color-main;
+  }
+
+  hr {
+    border-top: 2px solid $tag-bg-color;
+  }
+
+  .filter {
+    background-color: $tag-bg-color;
+    font-size: .9rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+
+  .filters-title {
+    margin-bottom: 1rem;
+  }
+}

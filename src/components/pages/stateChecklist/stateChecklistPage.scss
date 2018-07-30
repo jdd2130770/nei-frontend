@@ -1,0 +1,55 @@
+@import "variables";
+@import "~font-awesome/scss/_variables";
+
+#state-checklist-page {
+  #checklist-row {
+    padding-top: 0;
+  }
+
+  .checklist-data {
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+
+  .check-item {
+    border-bottom: 1px solid $color-gray;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    .checkbox-label {
+      padding: 1rem;
+      margin-bottom: 0;
+    }
+
+    ul {
+      border-top: 1px solid $color-gray;
+      margin-top: 1rem;
+    }
+
+    /* Custom Checkboxes */
+
+    /* Hide the checkbox itself */
+    .checkbox-item {
+      display: none;
+    }
+
+    .fa {
+      font-size: 2rem;
+    }
+
+    .icon-label {
+      color: $color-gray;
+    }
+
+    .checkbox-item:checked + .checkbox-label {
+      &> .icon-label > .fa:before {
+        color: $color-main;
+        content: $fa-var-check-circle;
+      }
+    }
+  }
+}

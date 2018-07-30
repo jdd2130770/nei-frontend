@@ -1,0 +1,38 @@
+@import "bootstrap";
+@import "variables";
+
+#state-side-nav {
+  margin-bottom: 1rem;
+
+  .nav-item {
+    padding: 1rem;
+  }
+
+  a {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .im-icon {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 33px;
+    vertical-align: middle;
+  }
+
+  .active {
+    background-color: $color-main;
+    color: $color-white;
+
+    a,
+    .im-icon:before {
+      color: $color-white;
+    }
+  }
+
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+}

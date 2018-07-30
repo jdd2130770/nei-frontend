@@ -1,0 +1,41 @@
+@import "bootstrap";
+@import "variables";
+
+#state-header {
+  &.main-row {
+    padding-bottom: 0;
+  }
+
+  .state-header-col {
+    position: relative;
+  }
+
+  .main-title {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .change-state {
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: right;
+
+    .fa {
+      font-weight: normal;
+    }
+  }
+
+  .top-divide {
+    margin-bottom: 3rem;
+  }
+  .top-hr {
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+  }
+
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    .change-state {
+      text-align: left;
+    }
+  }
+}

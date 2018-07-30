@@ -1,0 +1,62 @@
+/*=== Colors ===*/
+
+$color-main: #f05123;
+$color-gray: #e6e6e6;
+
+$body-bg-color: #ECECEC;
+$body-color: #000;
+
+$footer-bg-color: #000;
+$footer-color: #CFCFCF;
+
+$row-color-odd: #fff;
+$row-color-even: #f5f5f5;
+
+$anchor-color: #ed6c30;
+$anchor-color-hover: darken(#ed6c30, 10);
+
+$color-with-image-background: #fff;
+
+
+
+/**
+Pending to delete
+ */
+
+
+/* Whites/Grays/Blacks */
+$color-white: #ffffff;
+$color-link-water: #E4EEF6;
+$color-gallery: #ececec;
+$color-porcelain: #ecf0f1;
+$color-alto: #dddddd;
+$color-nobel: #b6b6b6;
+$color-dove-gray: #696969;
+$color-mine-shaft: #393939;
+
+/* Blues */
+$color-scooter: #33B6D4;
+$color-curious-blue: #197ED6;
+
+/*=== Theme Colors ===*/
+
+/* General */
+$main-accent: $color-scooter;
+$main-white: $color-white;
+
+/* Row */
+$row-bg-color: $color-white;
+$row-color: $color-dove-gray;
+
+/* Banners */
+$line-item-top-bg-color: $color-curious-blue;
+$line-item-top-color: $color-white;
+
+$line-item-highlight-bg-color: $color-link-water;
+$line-item-highlight-color: $color-dove-gray;
+
+$error-banner-bg-color: $color-white;
+$error-banner-color: $color-mine-shaft;
+
+$loading-banner-bg-color: $color-white;
+$loading-banner-color: $color-dove-gray;

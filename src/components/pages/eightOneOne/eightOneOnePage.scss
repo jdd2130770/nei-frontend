@@ -1,0 +1,256 @@
+@import "variables";
+
+#eight-one-one-page {
+  .hidden-sm-down {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+  .hidden-sm-up {
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
+  .height-calc {
+    height: 30vw;
+  }
+
+  .excavator-images {
+    width:48vw;
+    position: absolute;
+    left:0;
+    .excavator-img-1,
+    .excavator-img-2 {
+      position: relative;
+      display: inline-block;
+    }
+
+    .excavator-img-2 {
+      right:0;
+      margin-top:10%;
+      position: absolute;
+      width:75%;      
+    }
+    .excavator-img-1 {
+      width: 20vw;
+      z-index: 1;
+      left:0;
+    }
+  }
+
+  @media (max-width:767px) {
+    .height-calc {
+      height: auto;
+      padding-bottom: 100px;
+    }
+    .excavator-images {
+      width:100vw;
+      position: relative;
+
+      .excavator-img-1 {
+        z-index: unset;
+        width: 35vw;
+        bottom: -21px;
+      }
+    }
+  }
+
+  .offset-images {
+    .offset-image-container-1 {
+      text-align: right;
+      position: absolute;
+      top: 20%;
+      right: 0px;
+      img {
+        width: 36vw;
+        max-width: 530px;
+        min-width: 250px;
+      }
+    }
+    .offset-image-container-2 {
+      position: absolute;
+      right: 20vw;
+      top: 80%;
+      img {
+        width: 32vw;
+        max-width: 480px;
+        min-width: 200px;
+      }
+    }
+
+    @media (max-width:767px) {
+      position: relative;
+      height: 35vh;
+    }
+  }
+
+  .understand-excavation-row {
+    height: 100px;
+  }
+
+
+  .product-release-callout {
+    padding: 25px;
+    background-color: white;
+  }
+
+  .communication-row {
+    background-color: #909964;
+    color: white;
+    min-height: 375px;
+    margin-top: 60px;
+    margin-bottom: 20%;
+
+    .communication-header {
+      margin-top: 70px;
+    }
+
+    .communication-description {
+      margin-top: 20px;
+      padding-bottom: 70px;
+    }
+  }
+
+  .excavation-example-row {
+    .excavation-example-callout {
+      background-color: white;
+      height: 100%;
+      padding: 60px 10%;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -48px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background: $color-main url(./assets/house-icon.png) no-repeat center;
+        background-size: 65%;
+      }
+
+      &.professional {
+        &:before {
+          background-image: url(./assets/excavator-icon.png);
+        }
+      }
+
+      .excavation-example-callout-header {
+        margin: 15px;
+      }
+    }
+  }
+
+  .why-call-row {
+    color: white;
+    background-color: #E95828;
+
+    .excavator-images {
+      width: 41vw;
+
+      .excavator-img-1 {
+        position: absolute;
+        right: 0;
+        left: auto;
+        margin-top: -10%;
+        width: 30vw;
+      }
+      .excavator-img-2 {
+        z-index: 2;
+        right: auto;
+        left: 0;
+      }
+    }
+
+    @media (max-width:767px) {
+      .excavator-images {
+        background-color: lightgrey;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 10%;
+
+        .excavator-img-1,
+        .excavator-img-2 {
+          height: auto;
+          width: 55vw;
+        }
+        .excavator-img-1 {
+          left: 30px;
+        }
+        .excavator-img-2 {
+          right: 30px;
+          top: -30px;
+        }
+      }
+      .why-call-communication {
+        padding-top: 7.5%;
+      }
+    }
+  }
+
+  .why-call-communication {
+    background-color: #E95828;
+    padding-top: 3.5%;
+    min-height: 250px;
+  }
+
+  .digging-consequences-images {
+    .excavator-images {
+      right: 0;
+      left: unset;
+      text-align: right;
+      .excavator-img-1 {
+        top: -20px;
+        width: 60%;
+      }
+    }
+    @media (max-width:767px) {
+      .excavator-images {
+        display: none;
+      }
+    }
+  }
+
+  .digging-consequences {
+    .left-col,
+    .right-col {
+      padding-top: 15vw;
+    }
+
+    .bottom-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .digging-consequences-callout {
+      @media (min-width:767px) {
+        margin-top: 135px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      padding: 25px;
+      background-color: white;
+    }
+  }
+
+  .about-811 {
+    h2 {
+      margin-top: 10%;
+    }
+  }
+
+  .step-container {
+    .step-number {
+      text-transform: uppercase;
+      color: $color-main;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+  }
+
+}

@@ -1,0 +1,38 @@
+@import "variables";
+
+#sponsorship-options-page {
+  #white-paper-row {
+    text-align: center;
+
+    .white-paper-link {
+      text-decoration: underline;
+    }
+  }
+
+  .support-item-header {
+    margin-bottom: 1rem;
+  }
+
+  #contribution-row {
+    .support-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .level-name {
+      color: $color-main;
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+
+    .level-amount {
+      color: $color-main;
+      font-size: 4rem;
+      line-height: 1.1;
+    }
+  }
+
+  #join-us-row {
+    text-align: center;
+  }
+}

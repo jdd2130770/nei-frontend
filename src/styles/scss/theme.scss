@@ -1,0 +1,37 @@
+@import "variables";
+@import "./stateface.scss";
+
+a {
+  color: $anchor-color;
+
+  &:hover {
+    color: $anchor-color-hover;
+    text-decoration: none;
+  }
+}
+
+.main-row {
+  padding: 3rem 4rem 5rem;
+}
+
+.sub-row {
+  padding: 2rem 1rem;
+}
+
+.row-odd {
+  // background-color: $row-color-odd;
+}
+
+.row-even {
+  background-color: $row-color-even;
+}
+
+.nei-h {
+  color: $color-main;
+  margin-bottom: 2rem;
+}
+
+hr {
+  border-top: 2px solid #CFCFCF;
+  margin: 35px 0;
+}

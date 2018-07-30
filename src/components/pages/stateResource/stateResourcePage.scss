@@ -1,0 +1,67 @@
+@import "variables";
+
+$tag-bg-color: #e6e6e6;
+
+#state-resource-page {
+  #primary-row {
+    padding-top: 0;
+  }
+
+  #primary-row .row .col {
+    padding: 0;
+  }
+
+  #back-row,
+  .filters,
+  .resource-content,
+  .regulatory {
+    padding: 1rem;
+  }
+
+  #back-row {
+    background-color: $color-main;
+
+    .back-link {
+      color: $color-white;
+    }
+  }
+
+  #title-row {
+    background-color: #000;
+    color: $color-white;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .resource-title {
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  .logo-img {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  hr {
+    border-top: 2px solid $tag-bg-color;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #address-row {
+    margin-top: 1rem;
+  }
+
+  .address,
+  .contact-details,
+  .contact-numbers {
+    margin-left: 2rem;
+  }
+
+  .detail-name,
+  .number-name {
+    font-weight: bold;
+    margin-right: .5rem;
+  }
+}
